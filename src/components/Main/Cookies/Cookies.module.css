@@ -1,0 +1,43 @@
+.cookies {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2px 15px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    background-color: #ebebeb;
+    z-index: 8;
+}
+
+p, .cookiesBtn {
+    display: inline-block;
+    margin: 6px;
+    vertical-align: middle;
+}
+
+p span {
+    color: #666;
+}
+
+.cookiesLink {
+    color: #3B94FB;
+    text-decoration: none;
+}
+
+.cookiesLink:hover {
+    text-decoration: underline;
+}
+
+.cookiesBtn {
+    color: #000;
+    background: #FC0;
+    background-image: linear-gradient(0deg,#F90 0,rgba(255,153,0,0) 100%);
+    border: 1px solid rgba(255,153,0,.3);
+    border-color: #ffb700 #ffae00 #ff8f00;
+    line-height: 22px;
+    padding: 0 20px;
+    text-decoration: none;
+    text-align: center;
+}

@@ -1,0 +1,200 @@
+.signupWrapper {
+    background-color: #303030;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px
+}
+
+@media screen and (max-width: 767px) {
+    .signupWrapper {
+        margin: 125px 0 70px;
+    }
+}
+
+.signupWrapper .signupForm {
+    background-color: #242424;
+    padding: 30px;
+    border-radius: 0 0 6px 6px
+}
+
+.signupWrapper .hLoginForm {
+    margin-bottom: 1em;
+    color: #DD4B39
+}
+
+.signupFormHolder {
+    max-width: 870px;
+    margin: 0 auto
+}
+
+.signupRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px
+}
+
+.signupRow .signupInput {
+    padding: 0 8px;
+    width: 100%;
+    margin-bottom: 16px
+}
+
+.signupRow .signupInput label {
+    position: absolute;
+    top: -9999px;
+    left: -9999px
+}
+
+.signupRow .signupInput:last-child {
+    margin-bottom: 0
+}
+
+@media screen and (min-width: 768px) {
+    .signupRow .signupInput {
+        width:33.3333%;
+        margin-bottom: 0
+    }
+}
+
+.signupRow .signupInput input {
+    width: 100%
+}
+
+.signupRow .signupInput [type=email],.signupRow .signupInput [type=password] {
+    display: block;
+    width: 100%;
+    margin: 0 auto
+}
+
+.signupRow .signupInput [type=submit] {
+    width: 100%;
+    padding: 10px 15px;
+    height: 50px
+}
+
+.signupIntro {
+    padding: 30px
+}
+
+.signupTitle {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+
+@media screen and (min-width: 768px) {
+    .signupTitle {
+        font-size:44px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .signupTitle {
+        margin-bottom:.5em
+    }
+}
+
+.signupBenefits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #fff
+}
+
+.signupBenefits div.sep {
+    display: inline-block;
+    border-radius: 50%;
+    flex: 0 0 6px;
+    height: 6px;
+    background-color: #999;
+    margin: 0 22px
+}
+
+@media screen and (max-width: 767px) {
+    .signupBenefits {
+        flex-wrap:wrap
+    }
+
+    .signupBenefits div:not(.sep) {
+        flex: 0 0 100%;
+        margin: 7px 0
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .signupTitle {
+        font-size:57px
+    }
+
+    .signupBenefits {
+        font-size: 18px
+    }
+
+    .signupBenefits div.sep {
+        margin: 0 41px
+    }
+}
+
+.btn, .btnPrimary {
+    padding: 10px 36px;
+}
+
+.btnPrimary {
+    border: 1px solid #fc0;
+    background-color: #fc0;
+    color: #111;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all .3s ease;
+    font-family: "Fira Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .btnPrimary {
+        font-size: 16px;
+    }
+}
+
+::-webkit-input-placeholder {
+    color: #999
+}
+
+::-moz-placeholder {
+    opacity: 1;
+    color: #999
+}
+
+:-moz-placeholder {
+    color: #999
+}
+
+:-ms-input-placeholder {
+    color: #999
+}
+
+.placeholder {
+    color: #999
+}
+
+.error .popup__input {
+    border-color: #DD4B39
+}
+
+.error .error__block {
+    display: block
+}
+
+.error__block {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    display: none;
+    text-align: center;
+    color: #DD4B39
+}
